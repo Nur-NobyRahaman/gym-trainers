@@ -11,7 +11,7 @@ const services=[
     {id:1,name:"BODYBUILDING",img:workout ,details:'The discipline of bodybuilding may be harsh, but it pays off...'},
     {id:4,name:"BOXING",img:boxing,details:'You will have the guidance and motivational support from our boxing trainers.'},
     {id:3,name:"FITNESS",img:fitness ,details:'Our fitness and CrossFit program is designed for universal scalability.'},
-    {id:3,name:"RUNNING",img:running ,details:'Our fitness and CrossFit program is designed for universal scalability.'},
+    {id:6,name:"RUNNING",img:running ,details:'Our fitness and CrossFit program is designed for universal scalability.'},
     
     {id:2,name:"YOGA",img:yoga ,details:'Yoga classes are a great way to unwind and develop your mind and body.'},
     {id:5,name:"WEIGHT LOSS",img:weightloss,details:'Yoga classes are a great way to unwind and develop your mind and body.'},

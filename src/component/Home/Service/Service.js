@@ -5,18 +5,19 @@ const Service = ({service}) => {
     const { id, name, img,details } = service;
     const navigate=useNavigate()
 
-    const navigateCheckIn=()=>{
-        navigate('/checkin');
+    const navigateCheckIn=(id,name,details,img)=>{
+
+        navigate(`/checkin/${id}/${name}/${details}`);
     }
     return (
         <div>
-            <div class="col">
-                <div class="card">
-                    <img src={img} class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h2 class="card-title">{name}</h2>
-                        <p class="card-text">{details}</p>
-                        <button onClick={()=>navigateCheckIn()} className='btn btn-primary'>CHECK IN</button>
+            <div className="col">
+                <div className="card">
+                    <img src={img} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h2 className="card-title">{name}</h2>
+                        <p className="card-text">{details}</p>
+                        <button onClick={()=>navigateCheckIn(id,name,details,img)} className='btn btn-primary'>CHECK IN</button>
                     </div>
                 </div>
             </div>
